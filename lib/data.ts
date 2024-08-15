@@ -82,7 +82,7 @@ export const projectsData = [
   //   imageUrl: rmtdevImg,
   // },
   {
-    title: "Word Analytics",
+    title: "E Shop",
     description:
       "A full-stack MERN e-commerce app featuring optimized performance, clean architecture, reusable components and responsive design.",
     tags: ["MERN", "Redux Toolkit"],

@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Abhishek Khangare | Personal Portfolio",
   description:
-    "Abhishek Khangare is a full-stack developer with 8 years of experience.",
+    "Abhishek Khangare is a full-stack developer with 8 months of internship experience.",
 };
 
 export default function RootLayout({
