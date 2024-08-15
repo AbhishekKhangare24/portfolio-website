@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import eShopImg from "@/public/eshop.png";
+import dieTree from "@/public/dietree.png";
+import { link } from "fs";
+// import rmtdevImg from "@/public/rmtdev.png";
+// import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -35,52 +37,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor of Engineering",
+    location: "TGPCET, Nagpur",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I Completed my Engineering in Information Technology stream from nagpur university.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "July 2018 - Jun 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Explore the web dev world",
+    location: "",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "After finishing my degree, I wanted to delve deeper into web development, so I focused on mastering the MERN stack – MongoDB, Express.js, React, and Node.js – through online courses.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jun 2022 - May 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "MERN Stack Developer Internship",
+    location: "Work From Home",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "To gain practical experience, I completed an eight-month internship in MERN stack development. During this time, I collaborated with experienced professionals and contributed to building various web applications, including hospital management and student management websites.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "May 2023 - Jan 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dietree App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "In my 8 months of internship i worked on Dietree app (it is similer to hospital management system app) created its ui, integrated apis and fixed bugs.",
+    tags: ["React", "Node", "MongoDB", "Tailwind", "Mongoose"],
+    imageUrl: dieTree,
+    liveUrl: "",
+    frontendUrl: "",
+    backendUrl: "",
   },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
+
+  // {
+  //   title: "rmtDev",
+  //   description:
+  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+  //   imageUrl: rmtdevImg,
+  // },
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A full-stack MERN e-commerce app featuring optimized performance, clean architecture, reusable components and responsive design.",
+    tags: ["MERN", "Redux Toolkit"],
+    imageUrl: eShopImg,
+    liveUrl: "https://eshop-mern-frontend.vercel.app/",
+    frontendUrl: "https://github.com/AbhishekKhangare24/eshop-mern-frontend",
+    backendUrl: "https://github.com/AbhishekKhangare24/eshop-mern-backend",
   },
 ] as const;
 
@@ -94,14 +103,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Material UI",
+  "Shadcn UI",
+  "Sass",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Mongoose",
+  "Redux Toolkit",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
