@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import eShopImg from "@/public/eshop.png";
+import swiftkart from "@/public/swiftkart.png";
 import dieTree from "@/public/dietree.png";
-import { link } from "fs";
-// import rmtdevImg from "@/public/rmtdev.png";
+import ytImg from "@/public/youtube.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -64,32 +63,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Youtube Clone",
+    description:
+      "Youtube clone is an online video sharing app that will fetch the data from YouTube Data API and render it using React.",
+    tags: ["React", "Redux", "Material UI"],
+    imageUrl: ytImg,
+    liveUrl: "https://youtubeclonebyak.netlify.app/",
+    codeUrl: "https://github.com/AbhishekKhangare24/youtube_clone",
+  },
+
+  {
+    title: "Swiftkart",
+    description:
+      "Swiftkart is a MERN e-commerce app featuring optimized performance, clean architecture, reusable components and responsive design.",
+    tags: ["MERN", "Redux Toolkit"],
+    imageUrl: swiftkart,
+    liveUrl: "https://swiftkart-ecommerce-frontend.onrender.com/",
+    codeUrl: "https://github.com/AbhishekKhangare24/Swiftkart",
+    // backendUrl: "https://github.com/AbhishekKhangare24/eshop-mern-backend",
+  },
+  {
     title: "Dietree App",
     description:
       "In my 8 months of internship i worked on Dietree app (it is similer to hospital management system app) created its ui, integrated apis and fixed bugs.",
     tags: ["React", "Node", "MongoDB", "Tailwind", "Mongoose"],
     imageUrl: dieTree,
     liveUrl: "",
-    frontendUrl: "",
-    backendUrl: "",
-  },
-
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
-  {
-    title: "E Shop",
-    description:
-      "A full-stack MERN e-commerce app featuring optimized performance, clean architecture, reusable components and responsive design.",
-    tags: ["MERN", "Redux Toolkit"],
-    imageUrl: eShopImg,
-    liveUrl: "https://eshop-mern-frontend.vercel.app/",
-    frontendUrl: "https://github.com/AbhishekKhangare24/eshop-mern-frontend",
-    backendUrl: "https://github.com/AbhishekKhangare24/eshop-mern-backend",
+    codeUrl: "",
+    // backendUrl: "",
   },
 ] as const;
 

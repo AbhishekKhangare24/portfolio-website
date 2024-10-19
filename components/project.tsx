@@ -12,8 +12,7 @@ export default function Project({
   description,
   tags,
   liveUrl,
-  frontendUrl,
-  backendUrl,
+  codeUrl,
   imageUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -64,19 +63,11 @@ export default function Project({
             </a>
             <a
               className="group bg-white text-sm px-4 py-1 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-              href={frontendUrl}
+              href={codeUrl}
               target="_blank"
               download
             >
-              Frontend
-            </a>
-            <a
-              className="group bg-white text-sm px-4 py-1 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-              href={backendUrl}
-              target="_blank"
-              download
-            >
-              Backend
+              Code
             </a>
           </div>
         </div>
