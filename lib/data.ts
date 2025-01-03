@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "Swiftkart",
     description:
-      "Swiftkart is a MERN E-Comm app featuring optimized performance, clean architecture, reusable components and responsive design. Please it check once.",
+      "Swiftkart is a MERN E-Comm app featuring optimized performance, clean architecture, reusable components and responsive design. Please check it once.",
     tags: ["MERN", "Redux Toolkit"],
     imageUrl: swiftkart,
     liveUrl: "https://swiftkart-ecommerce-frontend.onrender.com/",
