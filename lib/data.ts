@@ -73,16 +73,6 @@ export const projectsData = [
     // backendUrl: "https://github.com/AbhishekKhangare24/eshop-mern-backend",
   },
   {
-    title: "Youtube Clone",
-    description:
-      "Youtube clone is an online video sharing app that will fetch the data from youtube data API and render it using react.",
-    tags: ["React", "Redux", "Material UI"],
-    imageUrl: ytImg,
-    liveUrl: "https://youtubeclonebyak.netlify.app/",
-    codeUrl: "https://github.com/AbhishekKhangare24/youtube_clone",
-  },
-
-  {
     title: "Dietree App",
     description:
       "In my 8 months of internship i worked on dietree app (it is similer to hospital management system app) created ui, integrated apis and fixed bugs.",
