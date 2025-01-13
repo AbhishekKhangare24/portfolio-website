@@ -35,7 +35,6 @@ export default function About() {
       <p>
         <span className="italic">Now feeling confident in my skills,</span>
         <span className="font-medium">
-          {" "}
           I aim to work full-time position as a software developer. I have a
           strong desire for learning and enjoy finding creative solutions to
           problems in web development.
