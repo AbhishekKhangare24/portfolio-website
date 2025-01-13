@@ -97,7 +97,6 @@ export const skillsData = [
   "Material UI",
   "Shadcn UI",
   "Sass",
-  "Prisma",
   "MongoDB",
   "Mongoose",
   "Redux Toolkit",
