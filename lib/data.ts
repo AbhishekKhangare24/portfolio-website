@@ -101,4 +101,5 @@ export const skillsData = [
   "Mongoose",
   "Redux Toolkit",
   "Express",
+  "Prisma",
 ] as const;
